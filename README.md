@@ -7,17 +7,21 @@ Automatic Discovery: Finds both the HyperCube and WiZ bulbs on the network, elim
 Real-Time Synchronization: Retrieves color data from selected WiZ bulbs and reflects it on the HyperCube.
 Efficient Subnet Scanning: Automatically detects the local subnet and searches for compatible devices.
 Error Logging: Detailed logs to an error log file provide insights into network activity, connection issues, and device responses.
+
 Requirements
 Python 3.7 or higher
 WiZ Smart Bulbs
 Hyperspace HyperCube
 Local Network (subnet scan enabled)
+
 Installation
 Clone the repository using Git and navigate into the project directory.
 Install the necessary dependencies listed in the requirements file.
+
 Usage
 Run the script to start the discovery process.
 Select whether you want to synchronize with a single WiZ bulb or all detected bulbs.
+
 Configuration
 The main script automatically detects the subnet and sends HTTP requests to potential IP addresses to locate the HyperCube. Ensure that the HyperCube and WiZ bulbs are connected to the same local network.
 
